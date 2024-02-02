@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <title>My WebSite</title>
+    <title>Cupcake Store</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.css" integrity="sha512-C+KPK958JmUdU8B9SVr8YpEZtQ1T1XrFX/OLvE/lt336DFWXFHL5Y9/tUewMEU+Uy3dUAS363XXLdBine0WDyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="
 https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
 " rel="stylesheet">
+<link rel="icon" href="/photos/favicon.png" type="image/x-icon">
 </head>
 
 
@@ -51,7 +52,7 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
 <section class="cakes container " id="section">
     <h2 class="about-second-section">Для будь-яких подій та дорогих вам людей</h2>
     <ul class="cakes-price">
-    <li class="price">    <img  src="./photos/cake1.jpg" alt="first-cake">
+    <li class="price">    <img  srcset="./photos/cake1.jpg 1x, ./photos/retina-cakes/cake1(2x).jpg 2x" src="./photos/cake1.jpg" alt="first-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Кремова фортеця</h3>
             <p class="cake-description">Ніжний крем любого кольору на вибір, вафельна основа
@@ -59,7 +60,7 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
             <p class="cake-price">30₴/шт.</p>
             <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button></div>
             </li>
-    <li class="price">    <img  src="./photos/cake2.jpg" alt="second-cake">
+    <li class="price">    <img srcset="./photos/cake2.jpg 1x, ./photos/retina-cakes/cake2(2x).jpg 2x" src="./photos/cake2.jpg" alt="second-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Малиновий рай</h3>
             <p class="cake-description">неперевершений крем, темна основа та ягода малини
@@ -69,74 +70,74 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake3.jpg" alt="third-cake">
+    <li class="price">    <img srcset="./photos/cake3.jpg 1x, ./photos/retina-cakes/cake3(2x).jpg 2x" src="./photos/cake3.jpg" alt="third-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Феєрверк</h3>
             <p class="cake-description">Різнокольоровий крем з бісквітною основою
             </p>
             <p class="cake-price">40₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake4.jpg" alt="fourth-cake">
+    <li class="price">    <img srcset="./photos/cake4.jpg 1x, ./photos/retina-cakes/cake4(2x).jpg 2x" src="./photos/cake4.jpg" alt="fourth-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Шоколадний світ</h3>
             <p class="cake-description">Горіхова стружка, ніжний крем та шоколадна основа
             </p>
             <p class="cake-price">45₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake5.jpg" alt="fifth-cake">
+    <li class="price">    <img srcset="./photos/cake5.jpg 1x, ./photos/retina-cakes/cake5(2x).jpg 2x" src="./photos/cake5.jpg" alt="fifth-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Сльози Дракона</h3>
             <p class="cake-description">Ніжний крем будь-якого кольору на вибір, вафельна основа
             </p>
             <p class="cake-price">40₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake6.jpg" alt="six-cake">
+    <li class="price">    <img srcset="./photos/cake6.jpg 1x, ./photos/retina-cakes/cake6(2x).jpg 2x" src="./photos/cake6.jpg" alt="six-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Літня фантазія</h3>
             <p class="cake-description">Прикраси у формі сердець, для коханої людини
             </p>
             <p class="cake-price">40₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake7.jpg" alt="seventh-cake">
+    <li class="price">    <img srcset="./photos/cake7.jpg 1x, ./photos/retina-cakes/cake7(2x).jpg 2x" src="./photos/cake7.jpg" alt="seventh-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Макарон</h3>
             <p class="cake-description">Різнокольорова основа, стружка та ніжний крем
             </p>
             <p class="cake-price">50₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake8.jpg" alt="eights-cake">
+    <li class="price">    <img srcset="./photos/cake8.jpg 1x, ./photos/retina-cakes/cake8(2x).jpg 2x" src="./photos/cake8.jpg" alt="eights-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Хмарна казка</h3>
             <p class="cake-description">Світла основа, ніжний крем зі стружкою зверху
             </p>
             <p class="cake-price">55₴/шт.</p>
-            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
             </div>
             </li>
 
-    <li class="price">    <img src="./photos/cake9.jpg" alt="nineth-cake">
+    <li class="price">    <img srcset="./photos/cake9.jpg 1x, ./photos/retina-cakes/cake9(2x).jpg 2x" src="./photos/cake9.jpg" alt="nineth-cake" loading="lazy">
             <div class="cakes-descr">
             <h3 class="cake-name">Темний лицар</h3>
             <p class="cake-description">Темна основа, ніжний крем та смачні кульки
             </p>
             <p class="cake-price">60₴/шт.</p>
             <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
-            </li>    
+            </li>
             </div>
     </ul>
 </section>
@@ -184,18 +185,18 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
         <use href = "photos/symbol-defs.svg#icon-quotes"></use>
 </svg>
 <h3 class="feedback-hero">«Результат дуже здивував,<br>друзі були у захваті!🤩»</h3>
-<p class="feedback-description">«Замовила капкейки як подарунок на новий рік. 
-        Зробити замовлення було легко та приємно, 
-        а результат дуже порадував, друзі були в захваті. 
-        Як оформлення, так і на смак капкейки були просто чудові. 
-        Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки. 
+<p class="feedback-description">«Замовила капкейки як подарунок на новий рік.
+        Зробити замовлення було легко та приємно,
+        а результат дуже порадував, друзі були в захваті.
+        Як оформлення, так і на смак капкейки були просто чудові.
+        Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки.
         Вони захоплюючі! Навіть їсти було шкода, така краса!»</p>
 </div>
 <div class="about-feedback-person">
-<img src="./photos/first-feedback.png" width="380" loading="lazy" alt="feedback girl photo"> 
+<img srcset="./photos/first-feedback.png 1x, ./photos/first-feedback(2x).jpg 2x" src="./photos/first-feedback.png" width="380" loading="lazy" alt="feedback girl photo">
 <p class="feedback-person-name">Вікторія Вікторівна</p>
-<p class="feedback-person-city">Житомир</p>   
-</div>        
+<p class="feedback-person-city">Житомир</p>
+</div>
 </div>
 <div class="feedback">
         <div>
@@ -203,18 +204,18 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
                 <use href = "photos/symbol-defs.svg#icon-quotes"></use>
         </svg>
         <h3 class="feedback-hero">«Ви ще до сих пір вагаєтесь?<br>Не гайте часу! Тут все просто бомба 💣»</h3>
-        <p class="feedback-description">«Замовила капкейки як подарунок на новий рік. 
-                Зробити замовлення було легко та приємно, 
-                а результат дуже порадував, друзі були в захваті. 
-                Як оформлення, так і на смак капкейки були просто чудові. 
-                Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки. 
+        <p class="feedback-description">«Замовила капкейки як подарунок на новий рік.
+                Зробити замовлення було легко та приємно,
+                а результат дуже порадував, друзі були в захваті.
+                Як оформлення, так і на смак капкейки були просто чудові.
+                Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки.
                 Вони захоплюючі! Навіть їсти було шкода, така краса!»</p>
         </div>
         <div class="about-feedback-person">
-        <img src="./photos/second-feedback.png" width="500" loading="lazy" alt="feedback girl photo"> 
+        <img srcset="./photos/second-feedback.png 1x, ./photos/second-feedback(2x).jpg 2x" src="./photos/second-feedback.png" width="500" loading="lazy" alt="feedback girl photo">
         <p class="feedback-person-name">Анастасія Анатоліївна</p>
-        <p class="feedback-person-city">Київ</p>   
-        </div>        
+        <p class="feedback-person-city">Київ</p>
+        </div>
 </div>
 <div class="feedback">
         <div>
@@ -225,10 +226,10 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
         <p class="feedback-description">"Я захопився цим закладом та доставкою! Смак тістечок був просто неймовірним,атмосфера в закладі дуже затишна, бувши в цьому закладі вперше, я назавжди полюбив його, обов'язково повернусь сюди знову!"»</p>
         </div>
         <div class="about-feedback-person">
-        <img src="./photos/third-feedback.png" width="690" loading="lazy" alt="feedback men photo"> 
+        <img srcset="./photos/third-feedback.png 1x, ./photos/third-feedback(2x).jpg 2x" src="./photos/third-feedback.png" width="690" loading="lazy" alt="feedback men photo">
         <p class="feedback-person-name">Віталій Андрійович</p>
-        <p class="feedback-person-city">Вінниця</p>   
-        </div>        
+        <p class="feedback-person-city">Вінниця</p>
+        </div>
 </div>
 </div>
 </div>
@@ -249,15 +250,15 @@ https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
 <h2 class="section-works">Зробили понад 3.000 замовлень за 2 роки</h2>
 <p class="works-description">Перегляньте фото реальних замовлень з нашого instagram</p>
 <ul class="cakes-work-list">
-        <li><img src="./photos/work-cakes/cake-1.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-2.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-3.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-4.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-5.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-6.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-7.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-8.jpg" width="500px" loading="lazy" alt="cakes"></li>
-        <li><img src="./photos/work-cakes/cake-9.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-1.jpg 1x, ./photos/retina-work-cakes/cake-1(2x).jpg 2x" src="./photos/work-cakes/cake-1.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-2.jpg 1x, ./photos/retina-work-cakes/cake-2(2x).jpg 2x" src="./photos/work-cakes/cake-2.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-3.jpg 1x, ./photos/retina-work-cakes/cake-3(2x).jpg 2x" src="./photos/work-cakes/cake-3.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-4.jpg 1x, ./photos/retina-work-cakes/cake-4(2x).jpg 2x" src="./photos/work-cakes/cake-4.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-5.jpg 1x, ./photos/retina-work-cakes/cake-5(2x).jpg 2x" src="./photos/work-cakes/cake-5.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-6.jpg 1x, ./photos/retina-work-cakes/cake-6(2x).jpg 2x" src="./photos/work-cakes/cake-6.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-7.jpg 1x, ./photos/retina-work-cakes/cake-7(2x).jpg 2x" src="./photos/work-cakes/cake-7.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-8.jpg 1x, ./photos/retina-work-cakes/cake-8(2x).jpg 2x" src="./photos/work-cakes/cake-8.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img  srcset="./photos/work-cakes/cake-9.jpg 1x, ./photos/retina-work-cakes/cake-9(2x).jpg 2x" src="./photos/work-cakes/cake-9.jpg" width="500px" loading="lazy" alt="cakes"></li>
 </ul>
 </section>
 
