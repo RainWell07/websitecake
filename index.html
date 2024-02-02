@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>My WebSite</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.css" integrity="sha512-C+KPK958JmUdU8B9SVr8YpEZtQ1T1XrFX/OLvE/lt336DFWXFHL5Y9/tUewMEU+Uy3dUAS363XXLdBine0WDyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="
+https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css
+" rel="stylesheet">
+</head>
+
+
+<body>
+
+ <a href="#" class="scroll-to-top">↑</a>
+
+<!--HEADER-->
+<header class="header">
+    <div class="head-position container">
+    <nav>
+    <a class="main-logo" href="/index.html">Солодка крамниця</a>
+    </nav>
+    <ul class="header-about">
+        <li><a class="location" href="https://goo.gl/maps/dbpkg6pRs3y8VN2d8" target="_blank">м.Київ, вул.Київська 143</a></li>
+        <li><a class="location-numb" href="tel:+380637531766">+38 (066) 77-77-766 <br> <p class="worktime">Працюємо щодня з 08:00 до 20:00</p></a></li>
+    </ul>
+    </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main>
+
+<!-- FIRST SECTION -->
+<section class="hero-first-section">
+    <div class="hero-section container">
+    <button class="hero-taste">НАЙСМАЧНІШІ</button>
+    <h1 class="about-hero-title">Тістечка та капкейки<br>від 30 грн  з доставкою<br>по місту</h1>
+    <p class="about-hero">Приготуємо за 3 години в день замовлення<br>та доставимо на авто у холодильнику</p>
+    <div class="hero-btn">
+    <button class="section-btn" id="scroll-to-next-section">Перейти в каталог</button>
+    <p class="about-choice">9 різноманітних <br> видів на вибір!</p>
+    </div>
+    </div>
+</section>
+
+<!-- SECOND SECTION -->
+<section class="cakes container " id="section">
+    <h2 class="about-second-section">Для будь-яких подій та дорогих вам людей</h2>
+    <ul class="cakes-price">
+    <li class="price">    <img  src="./photos/cake1.jpg" alt="first-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Кремова фортеця</h3>
+            <p class="cake-description">Ніжний крем любого кольору на вибір, вафельна основа
+            </p>
+            <p class="cake-price">30₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button></div>
+            </li>
+    <li class="price">    <img  src="./photos/cake2.jpg" alt="second-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Малиновий рай</h3>
+            <p class="cake-description">неперевершений крем, темна основа та ягода малини
+            </p>
+            <p class="cake-price">35₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake3.jpg" alt="third-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Феєрверк</h3>
+            <p class="cake-description">Різнокольоровий крем з бісквітною основою
+            </p>
+            <p class="cake-price">40₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake4.jpg" alt="fourth-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Шоколадний світ</h3>
+            <p class="cake-description">Горіхова стружка, ніжний крем та шоколадна основа
+            </p>
+            <p class="cake-price">45₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake5.jpg" alt="fifth-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Сльози Дракона</h3>
+            <p class="cake-description">Ніжний крем будь-якого кольору на вибір, вафельна основа
+            </p>
+            <p class="cake-price">40₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake6.jpg" alt="six-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Літня фантазія</h3>
+            <p class="cake-description">Прикраси у формі сердець, для коханої людини
+            </p>
+            <p class="cake-price">40₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake7.jpg" alt="seventh-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Макарон</h3>
+            <p class="cake-description">Різнокольорова основа, стружка та ніжний крем
+            </p>
+            <p class="cake-price">50₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake8.jpg" alt="eights-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Хмарна казка</h3>
+            <p class="cake-description">Світла основа, ніжний крем зі стружкою зверху
+            </p>
+            <p class="cake-price">55₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>    
+            </div>
+            </li>
+
+    <li class="price">    <img src="./photos/cake9.jpg" alt="nineth-cake">
+            <div class="cakes-descr">
+            <h3 class="cake-name">Темний лицар</h3>
+            <p class="cake-description">Темна основа, ніжний крем та смачні кульки
+            </p>
+            <p class="cake-price">60₴/шт.</p>
+            <button id = "cakeOr" class="cake-order open-modal-btn">Замовити</button>
+            </li>    
+            </div>
+    </ul>
+</section>
+
+<!-- THIRD SECTION -->
+<section class="section-upload-photo">
+   <div class="upload-hero-section container">
+    <button class="hero-taste"> Не знайшли те, що потрібно?</button>
+    <h2 class="about-hero-title">Приготуємо замовлення<br>будь-якої складності<br>по фото чи ескізу</h2>
+    <p class="about-hero">Завантажте малюнок чи ескіз<br>та ми розрахуємо вартість за 30 хвилин</p>
+    <button id="upload-image" class="section-btn upload-photo">Завантажити малюнок </button>
+   </div>
+</section>
+
+<!-- FOURTH SECTION -->
+<section class="section-who-cooking">
+    <div class="container">
+    <button class="who-will-cook">Хто буде готувати?</button>
+    <h2 class="about-who-cooking">Особисто приготую<br>та все красиво<br>запакую до вашої події</h2>
+    <ul class="cook-benefit dots">
+        <li class="cook-ideas">Проконсультую щодо вибору<br>та придумаю нестандартну ідею.</li>
+        <li class="cook-ideas">Приготую капкейки до вашої події,<br>які обов'язково всім сподобаються.</li>
+        <li class="cook-ideas">Акуратно та красиво все запакую,<br>якщо ви хочете зробити подарунок.</li>
+    </ul>
+    <div class="name-position">
+    <button id="my-button" class="section-btn">Задати питання Вікторії</button>
+    <div class="chief-border">
+    <div class="chief-background">
+    <p class="chief">Вікторія Малярчук</p>
+    <p class="chief-job">Ваш кондитер</p>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- FIFTH SECTION -->
+<section class="feedback-section">
+<div class="container">
+<h2 class="about-feedback">Почитайте декілька відгуків задоволених клієнтів</h2>
+<div id="three-feedbacks-in-one" class="three-feedbacks-in-one">
+<div class="feedback active">
+<div>
+<svg width = "40px" height = "60px">
+        <use href = "photos/symbol-defs.svg#icon-quotes"></use>
+</svg>
+<h3 class="feedback-hero">«Результат дуже здивував,<br>друзі були у захваті!🤩»</h3>
+<p class="feedback-description">«Замовила капкейки як подарунок на новий рік. 
+        Зробити замовлення було легко та приємно, 
+        а результат дуже порадував, друзі були в захваті. 
+        Як оформлення, так і на смак капкейки були просто чудові. 
+        Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки. 
+        Вони захоплюючі! Навіть їсти було шкода, така краса!»</p>
+</div>
+<div class="about-feedback-person">
+<img src="./photos/first-feedback.png" width="380" loading="lazy" alt="feedback girl photo"> 
+<p class="feedback-person-name">Вікторія Вікторівна</p>
+<p class="feedback-person-city">Житомир</p>   
+</div>        
+</div>
+<div class="feedback">
+        <div>
+        <svg width = "40px" height = "60px">
+                <use href = "photos/symbol-defs.svg#icon-quotes"></use>
+        </svg>
+        <h3 class="feedback-hero">«Ви ще до сих пір вагаєтесь?<br>Не гайте часу! Тут все просто бомба 💣»</h3>
+        <p class="feedback-description">«Замовила капкейки як подарунок на новий рік. 
+                Зробити замовлення було легко та приємно, 
+                а результат дуже порадував, друзі були в захваті. 
+                Як оформлення, так і на смак капкейки були просто чудові. 
+                Обов'язково замовлю ще Вже складаю плани, щоб спробувати всі начинки. 
+                Вони захоплюючі! Навіть їсти було шкода, така краса!»</p>
+        </div>
+        <div class="about-feedback-person">
+        <img src="./photos/second-feedback.png" width="500" loading="lazy" alt="feedback girl photo"> 
+        <p class="feedback-person-name">Анастасія Анатоліївна</p>
+        <p class="feedback-person-city">Київ</p>   
+        </div>        
+</div>
+<div class="feedback">
+        <div>
+        <svg width = "40px" height = "60px">
+                <use href = "photos/symbol-defs.svg#icon-quotes"></use>
+        </svg>
+        <h3 class="feedback-hero">«Дуже дякую за прекрасні капкейки, смак та сервіс на висоті!😎»</h3>
+        <p class="feedback-description">"Я захопився цим закладом та доставкою! Смак тістечок був просто неймовірним,атмосфера в закладі дуже затишна, бувши в цьому закладі вперше, я назавжди полюбив його, обов'язково повернусь сюди знову!"»</p>
+        </div>
+        <div class="about-feedback-person">
+        <img src="./photos/third-feedback.png" width="690" loading="lazy" alt="feedback men photo"> 
+        <p class="feedback-person-name">Віталій Андрійович</p>
+        <p class="feedback-person-city">Вінниця</p>   
+        </div>        
+</div>
+</div>
+</div>
+
+
+<div class="next-feedback">
+<button id="prev-button" class="feedback-button"><svg class="btn-svg">
+        <use href ="photos/symbol-defs.svg#icon-feedback-arrow-left"></use>
+</svg></button>
+<button id="next-button" class="feedback-button"><svg class="btn-svg">
+        <use href ="photos/symbol-defs.svg#icon-feedback-arrow-right"></use>
+</svg></button>
+</div>
+</section>
+
+<!-- SIXTH SECTION -->
+<section>
+<h2 class="section-works">Зробили понад 3.000 замовлень за 2 роки</h2>
+<p class="works-description">Перегляньте фото реальних замовлень з нашого instagram</p>
+<ul class="cakes-work-list">
+        <li><img src="./photos/work-cakes/cake-1.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-2.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-3.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-4.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-5.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-6.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-7.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-8.jpg" width="500px" loading="lazy" alt="cakes"></li>
+        <li><img src="./photos/work-cakes/cake-9.jpg" width="500px" loading="lazy" alt="cakes"></li>
+</ul>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-order">
+<h3 class="footer-hero">Щоб зробити замовлення, вкажіть ваш телефон</h3>
+<p class="footer-description">Ми передзвонимо протягом 15 хвилин, щоб уточнити ваші побажання</p>
+<div class="footer-order-form">
+<form>
+<input class="footer-input" type="tel" pattern="[0-9]{10}" name="phone" minlength="5" placeholder="Номер телефону" required>
+<button class="footer-section-btn">Зробити замовлення</button>
+<label class="footer-checkbox">
+<input type="checkbox" name="privacy-policy" required>
+Натискаючи кнопку, ви погоджуєтесь з<a href="#" target="_blank">умовами обробки персональних даних</a>.
+</label>
+</form>
+</div>
+</div>
+
+
+<ul class="footer-information-links">
+        <li class="footer-info-dash"><a href="#" target="_blank">Згода на обробку даних</a></li>
+        <li class="footer-info-dash"><a href="#" target="_blank">Служба підтримки</a></li>
+        <li class="footer-info-dash"><a href="#" target="_blank">Політика конфіденційності</a></li>
+</ul>
+<p class="footer-web-date">©kapcakes.ua 2023</p>
+</footer>
+</main>
+<!-- MAIN CONTENT END -->
+
+<!--SCRIPTS, CDN -->
+<script src="./js/scrollup.js"></script>
+<script src="./js/scroll-to-cakes.js"></script>
+<script src="./js/modal-cakes.js"></script>
+<script src="./js/modal-upload.js"></script>
+<script src="./js/feedback.js"></script>
+<script src="./js/preventdefalut.js"></script>
+<script src="./js/ask-question-modal.js"></script>
+<script src="./js/call-order.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-aio-3.2.6.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.js" integrity="sha512-jIc3kBeyfyLXBTmzUIXnbGiVK2wgWGcDIkJwkFW4bQ6v2h/piOKLwIfy3wOmKHWIu8DgYSKVth0DMUvExMYcOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
